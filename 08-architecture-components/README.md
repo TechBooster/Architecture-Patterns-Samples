@@ -16,5 +16,6 @@
 |---|---|
 | .data | api/entity/repositoryとサブパッケージがあり、GitHubService,GitHubRepositoryクラスが入っている |
 | .di | Dagger2のInjectionを行うためのクラス群、ViewModelFactoryなど |
+| .flux | [arch-flux](arch-flux)のみで使用、Action/Dispatcher/StoreなどのFlux用のインタフェース |
 | .ui.main | MainActivity/MainViewModel　など画面固有のクラス |
 | .util | 拡張関数などのユーティリティクラス |
